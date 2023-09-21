@@ -1,0 +1,29 @@
+{
+  "name": "repo-role-switcher",
+  "version": "1.0.0",
+  "private": true,
+  "description": "App that automatically replaces one role with another when a user/team is assigned to a repo. Assigns a team when a repo is created as well",
+  "author": "Tiago Pascoal",
+  "license": "ISC",
+  "homepage": "https://github.com/tspascoal/repo-role-switcher",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "probot run ./lib/index.js"
+  },
+  "dependencies": {
+    "probot": "^12.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "smee-client": "^1.2.3",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">= 10.13.0"
+  }
+}
